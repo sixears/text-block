@@ -10,7 +10,7 @@ name:                text-block
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.0
+version:             0.1.0.1
 
 -- A short (one-line) description of the package.
 synopsis:            wrap text, layout in rectangles
@@ -57,7 +57,7 @@ library
   -- other-extensions:    
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.7 && <4.8,
+  build-depends:       base >=4.7,
                        data-default >=0.5.3
   
   -- Directories containing source files.
